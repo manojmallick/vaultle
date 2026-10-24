@@ -1,0 +1,37 @@
+{
+  "name": "vaultle",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A daily colour-sequencing puzzle for desktop browsers with an experimental WebXR mode.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "lint": "next lint",
+    "postinstall": "sigmap",
+    "map:refresh": "sigmap",
+    "map:report": "sigmap --report --json",
+    "map:watch": "sigmap daemon start",
+    "map:setup": "sigmap --setup"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.185.1",
+    "@react-three/fiber": "^9.6.1",
+    "@react-three/xr": "^6.6.30"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.185.1",
+    "typescript": "^5.9.0",
+    "vitest": "^2.0.0",
+    "@vercel/config": "^0.5.5",
+    "sigmap": "^8.18.0"
+  }
+}

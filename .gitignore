@@ -1,0 +1,35 @@
+node_modules
+.next
+.vercel
+.env
+.env.local
+*.log
+.context
+gain-report.json
+benchmarks/reports
+
+# Local files and generated build output
+.DS_Store
+Thumbs.db
+.env.*.local
+node_modules/
+.context/
+.sigmap-cache.json
+.next/
+dist/
+build/
+coverage/
+.vscode-test/
+.turbo/
+.output/
+.wxt/
+.playwright-cli/
+test-results/
+playwright-report/
+target/
+android/.gradle/
+ios/Pods/
+DerivedData/
+
+# TypeScript build cache
+*.tsbuildinfo
